@@ -2,7 +2,7 @@ import telebot
 import sqlite3
 import random
 
-token = "451307364:AAETEiun562uOpN5R6RJy8p-nuspeLhXjy0"
+token = TOKEN
 bot = telebot.TeleBot(token)
 
 def get_data(mood):
